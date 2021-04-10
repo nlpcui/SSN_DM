@@ -1,4 +1,4 @@
-# Sliding Selector Network with Dynamic Memory for Extractive Summarization of Long Documents
+# Sliding Selector Network with Dynamic Memory for Extractive Summarization of Long Documents (NAACL 2021)
 
 
 
