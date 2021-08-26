@@ -380,14 +380,14 @@ if __name__ == '__main__':
 
     # corpus
     ## PubMed train
-    parser.add_argument("--pubmed_train_inputs_dir", type=str, default='dataset/pubmed/inputs/test')
-    parser.add_argument("--pubmed_train_labels_dir", type=str, default='dataset/pubmed/labels/test')
-    parser.add_argument("--pubmed_train_references_dir", type=str, default="dataset/pubmed/references/test")
+    parser.add_argument("--pubmed_train_inputs_dir", type=str, default='dataset/pubmed/inputs/train')
+    parser.add_argument("--pubmed_train_labels_dir", type=str, default='dataset/pubmed/labels/train')
+    parser.add_argument("--pubmed_train_references_dir", type=str, default="dataset/pubmed/references/train")
 
     ## PubMed val
-    parser.add_argument("--pubmed_val_inputs_dir", type=str, default="dataset/pubmed/inputs/test")
-    parser.add_argument("--pubmed_val_labels_dir", type=str, default="dataset/pubmed/labels/test")
-    parser.add_argument("--pubmed_val_references_dir", type=str, default="dataset/pubmed/references/test")
+    parser.add_argument("--pubmed_val_inputs_dir", type=str, default="dataset/pubmed/inputs/val")
+    parser.add_argument("--pubmed_val_labels_dir", type=str, default="dataset/pubmed/labels/val")
+    parser.add_argument("--pubmed_val_references_dir", type=str, default="dataset/pubmed/references/val")
 
     ## PubMed test
     parser.add_argument("--pubmed_test_inputs_dir", type=str, default="dataset/pubmed/inputs/test")
@@ -395,14 +395,14 @@ if __name__ == '__main__':
     parser.add_argument("--pubmed_test_references_dir", type=str, default="dataset/pubmed/references/test")
 
     ## ArXiv train
-    parser.add_argument("--arXiv_train_inputs_dir", type=str, default="dataset/arXiv/inputs/test")
-    parser.add_argument("--arXiv_train_labels_dir", type=str, default="dataset/arXiv/labels/test")
-    parser.add_argument("--arXiv_train_references_dir", type=str, default="dataset/arXiv/references/test")
+    parser.add_argument("--arXiv_train_inputs_dir", type=str, default="dataset/arXiv/inputs/train")
+    parser.add_argument("--arXiv_train_labels_dir", type=str, default="dataset/arXiv/labels/train")
+    parser.add_argument("--arXiv_train_references_dir", type=str, default="dataset/arXiv/references/train")
 
     ## ArXiv val
-    parser.add_argument("--arXiv_val_inputs_dir", type=str, default="dataset/arXiv/inputs/test")
-    parser.add_argument("--arXiv_val_labels_dir", type=str, default="dataset/arXiv/labels/test")
-    parser.add_argument("--arXiv_val_references_dir", type=str, default="dataset/arXiv/references/test")
+    parser.add_argument("--arXiv_val_inputs_dir", type=str, default="dataset/arXiv/inputs/val")
+    parser.add_argument("--arXiv_val_labels_dir", type=str, default="dataset/arXiv/labels/val")
+    parser.add_argument("--arXiv_val_references_dir", type=str, default="dataset/arXiv/references/val")
 
     ## ArXiv test
     parser.add_argument("--arXiv_test_inputs_dir", type=str, default="dataset/arXiv/inputs/test")
